@@ -5,7 +5,7 @@ import Palette from "./Components/Palette";
 function App() {
   return (
     <div className="App h-screen">
-      <div className="Palette flex h-1/2 space-x-5 p-5">
+      <div className="Palette flex h-3/4 space-x-5 pt-5 p-2">
         <div className="flex-auto w-2/3">
           <Palette primary name={"Drawing Palette"} />
         </div>
