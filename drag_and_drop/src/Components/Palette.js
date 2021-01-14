@@ -1,4 +1,3 @@
-import Button from "./Button";
 import QRCode from "../Images/QRCode.png";
 import BarCode from "../Images/BarCode.png";
 
