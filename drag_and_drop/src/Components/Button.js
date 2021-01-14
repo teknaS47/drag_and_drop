@@ -1,9 +1,12 @@
 function Button(props)
 {
-    if(props.name==="Cancel"){
+    if(props.name==="CANCEL"){
+        
+    
         return(
-            <input onClick={Clear} type="Submit" defaultValue={props.name} style={{backgroundColor: props.color, color:props.textColor}} className="rounded-3xl py-2 px-5"/>
+            <input onClick={cancel} type="Submit" defaultValue={props.name} style={{backgroundColor: props.color, color:props.textColor}} className="rounded-3xl py-2 px-5"/>
         ) 
+    
     }
     else{
         return(
@@ -12,11 +15,10 @@ function Button(props)
     }
       
 }
-
-function Clear()
-{ 
-    document.getElementById("Dragged").innerText=""
-    console.log("CLEAR!")
-
-}
+function cancel(e) {
+    e.preventDefault();
+    console.log('Cancel!.');
+    window.location.reload();
+  }
+  
 export default Button;

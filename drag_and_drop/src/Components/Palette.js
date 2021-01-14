@@ -2,6 +2,7 @@ import Button from './Button'
 import QRCode from '../Images/QRCode.png';
 import BarCode from '../Images/BarCode.png';
 
+//Elements
 const Element =(props)=> {
     if(props.element==="Image")
     {
@@ -20,23 +21,35 @@ const Element =(props)=> {
     }
     
 }
+
+//Images
 const Image =(props)=>
     // <div id={props.id} className="row-span-2 h-10 p-2" draggable="true" onDragStart={drag} role="img" alt="QR Code">
     <img  src={props.image} id={props.id} className="row-span-2 h-20 p-2"  draggable="true" onDragStart={drag} alt=""/>
     // </div>
 
+
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+    
+//Palettes
 function Palette(props)
 {
+    //Dragged items palette
     if(props.name==="Dragged item")
     {
         return(
             <div className="h-full border-2">
                 <h1 className="text-left pl-5 p-1"><b>{props.name}</b></h1>
                 <hr/>
-                <div id="Dragged" className="grid grid-cols-3 gap-4" ></div>
+                <div id="Dragged" className="grid justify-items-auto grid-cols-3 gap-4" ></div>
             </div>
         )
     }
+
+    //Design Objects Palette
     else{
         if(props.name==="Design Objects Palette")
         {
@@ -76,20 +89,18 @@ function Palette(props)
                 <div className="h-full border-2 rounded-xl ">
                     <h1 className="bg-gray-200 text-left rounded-t-xl pl-5 p-1"><b>{props.name}</b></h1>
                     <hr/>
-                    <div id="Design" className="grid grid-flow-row gap-4 grid-cols-2 p-5">
+                    <div id="Design" className="flex flex-wrap p-5">
                     {items}
                     </div>
                 </div>
             )
         
     }
+
+    //Drawing 
         else{
             function allowDrop(ev) {
                 ev.preventDefault();
-              }
-          
-              function drag(ev) {
-                ev.dataTransfer.setData("text", ev.target.id);
               }
           
               function drop(ev) {
@@ -117,15 +128,8 @@ function Palette(props)
             </div>
         )
         }
+        
     }
 }
 
-function Add()
-{
-    
-}
-
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-  }
 export default Palette;
