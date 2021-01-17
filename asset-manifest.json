@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ECInfosolutions/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/ECInfosolutions/static/js/main.e1e02a26.chunk.js",
-    "main.js.map": "/ECInfosolutions/static/js/main.e1e02a26.chunk.js.map",
-    "runtime-main.js": "/ECInfosolutions/static/js/runtime-main.44e75897.js",
-    "runtime-main.js.map": "/ECInfosolutions/static/js/runtime-main.44e75897.js.map",
-    "static/js/2.d8b3fd9f.chunk.js": "/ECInfosolutions/static/js/2.d8b3fd9f.chunk.js",
-    "static/js/2.d8b3fd9f.chunk.js.map": "/ECInfosolutions/static/js/2.d8b3fd9f.chunk.js.map",
-    "static/js/3.1ace2396.chunk.js": "/ECInfosolutions/static/js/3.1ace2396.chunk.js",
-    "static/js/3.1ace2396.chunk.js.map": "/ECInfosolutions/static/js/3.1ace2396.chunk.js.map",
-    "index.html": "/ECInfosolutions/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/ECInfosolutions/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d8b3fd9f.chunk.js.LICENSE.txt": "/ECInfosolutions/static/js/2.d8b3fd9f.chunk.js.LICENSE.txt"
+    "main.css": "/ECInfosolutions/Public/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/ECInfosolutions/Public/static/js/main.e1e02a26.chunk.js",
+    "main.js.map": "/ECInfosolutions/Public/static/js/main.e1e02a26.chunk.js.map",
+    "runtime-main.js": "/ECInfosolutions/Public/static/js/runtime-main.9e3bffb6.js",
+    "runtime-main.js.map": "/ECInfosolutions/Public/static/js/runtime-main.9e3bffb6.js.map",
+    "static/js/2.d8b3fd9f.chunk.js": "/ECInfosolutions/Public/static/js/2.d8b3fd9f.chunk.js",
+    "static/js/2.d8b3fd9f.chunk.js.map": "/ECInfosolutions/Public/static/js/2.d8b3fd9f.chunk.js.map",
+    "static/js/3.1ace2396.chunk.js": "/ECInfosolutions/Public/static/js/3.1ace2396.chunk.js",
+    "static/js/3.1ace2396.chunk.js.map": "/ECInfosolutions/Public/static/js/3.1ace2396.chunk.js.map",
+    "index.html": "/ECInfosolutions/Public/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/ECInfosolutions/Public/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d8b3fd9f.chunk.js.LICENSE.txt": "/ECInfosolutions/Public/static/js/2.d8b3fd9f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.44e75897.js",
+    "static/js/runtime-main.9e3bffb6.js",
     "static/js/2.d8b3fd9f.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.e1e02a26.chunk.js"
